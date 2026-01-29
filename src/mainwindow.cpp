@@ -67,7 +67,6 @@ void MainWindow::setupUi() {
     m_rawPeriodBox->addItem("RAW 15 minutes", 900);
     m_rawPeriodBox->addItem("RAW 1 hour", 3600);
     m_rawPeriodBox->addItem("RAW 24 hours", 86400);
-    m_rawPeriodBox->addItem("RAW 7 days", 7LL*86400);
     m_rawPeriodBox->setCurrentIndex(2);
 
     m_updateBtn = new QPushButton("Update all", ctlBox);
